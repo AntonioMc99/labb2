@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Beginner Function Practice</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Function Practice</h1>
+
+  
+  <div class="box">
+    <h2>Format Full Name</h2>
+    <input id="firstName" placeholder="First Name">
+    <input id="lastName" placeholder="Last Name">
+    <button onclick="showFormattedName()">Format Name</button>
+    <p id="formattedName"></p>
+  </div>
+
+  
+  <div class="box">
+    <h2>Calculate Total Cost</h2>
+    <input id="price" placeholder="Item Price">
+    <input id="quantity" placeholder="Quantity">
+    <input id="taxRate" placeholder="Tax Rate (example: 0.08)">
+    <input id="discount" placeholder="Discount (optional)">
+    <button onclick="showTotalCost()">Calculate</button>
+    <p id="totalCost"></p>
+  </div>
+
+ 
+  <div class="box">
+    <h2>Check Program Eligibility</h2>
+    <input id="age" placeholder="Age">
+    <select id="employment">
+      <option value="true">Employed</option>
+      <option value="false">Unemployed</option>
+    </select>
+    <button onclick="showEligibility()">Check</button>
+    <p id="eligibilityResult"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
