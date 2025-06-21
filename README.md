@@ -1,1 +1,1 @@
-# labb2
+friendly web project that helps you practice JavaScript functions by interacting with a webpage. It includes three small tasks: formatting a full name, calculating the total cost of items including tax and optional discount, and checking eligibility based on age and employment status. The project uses basic HTML for structure, CSS for styling, and JavaScript for all the logic. To use it, just download the files
